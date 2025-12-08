@@ -1,0 +1,463 @@
+[
+  {
+    "id": "u1",
+    "name": "Carlos",
+    "lastName": "Ramírez",
+    "dni": "402001001",
+    "email": "carlos.ramirez@example.com",
+    "phone": "+1 809-555-0001",
+    "birthDate": "1996-05-14T00:00:00.000Z",
+    "isActive": true,
+    "employmentDetails": {
+      "id": "ed1",
+      "position": "Software Developer",
+      "department": "IT",
+      "salary": 52000,
+      "hiringDate": "2022-01-10T00:00:00.000Z",
+      "paymentType": "Monthly",
+      "employeeId": "u1"
+    },
+    "department": {
+      "id": "d1",
+      "name": "IT"
+    }
+  },
+  {
+    "id": "u2",
+    "name": "María",
+    "lastName": "Fernández",
+    "dni": "402001002",
+    "email": "maria.fernandez@example.com",
+    "phone": "+1 809-555-0002",
+    "birthDate": "1993-11-20T00:00:00.000Z",
+    "isActive": true,
+    "employmentDetails": {
+      "id": "ed2",
+      "position": "HR Manager",
+      "department": "Human Resources",
+      "salary": 48000,
+      "hiringDate": "2021-03-15T00:00:00.000Z",
+      "paymentType": "Monthly",
+      "employeeId": "u2"
+    },
+    "department": {
+      "id": "d2",
+      "name": "Human Resources"
+    }
+  },
+  {
+    "id": "u3",
+    "name": "Luis",
+    "lastName": "Gómez",
+    "dni": "402001003",
+    "email": "luis.gomez@example.com",
+    "phone": "+1 809-555-0003",
+    "birthDate": "1990-09-12T00:00:00.000Z",
+    "isActive": false,
+    "employmentDetails": {
+      "id": "ed3",
+      "position": "Accountant",
+      "department": "Finance",
+      "salary": 43000,
+      "hiringDate": "2020-08-10T00:00:00.000Z",
+      "paymentType": "Monthly",
+      "employeeId": "u3"
+    },
+    "department": {
+      "id": "d3",
+      "name": "Finance"
+    }
+  },
+  {
+    "id": "u4",
+    "name": "Ana",
+    "lastName": "Vargas",
+    "dni": "402001004",
+    "email": "ana.vargas@example.com",
+    "phone": "+1 829-555-0004",
+    "birthDate": "1998-01-30T00:00:00.000Z",
+    "isActive": true,
+    "employmentDetails": {
+      "id": "ed4",
+      "position": "Designer",
+      "department": "Marketing",
+      "salary": 39000,
+      "hiringDate": "2023-02-01T00:00:00.000Z",
+      "paymentType": "Monthly",
+      "employeeId": "u4"
+    },
+    "department": {
+      "id": "d4",
+      "name": "Marketing"
+    }
+  },
+  {
+    "id": "u5",
+    "name": "Pedro",
+    "lastName": "López",
+    "dni": "402001005",
+    "email": "pedro.lopez@example.com",
+    "phone": "+1 829-555-0005",
+    "birthDate": "1995-04-25T00:00:00.000Z",
+    "isActive": true,
+    "employmentDetails": {
+      "id": "ed5",
+      "position": "Network Administrator",
+      "department": "IT",
+      "salary": 55000,
+      "hiringDate": "2019-05-12T00:00:00.000Z",
+      "paymentType": "Monthly",
+      "employeeId": "u5"
+    },
+    "department": {
+      "id": "d1",
+      "name": "IT"
+    }
+  },
+  {
+    "id": "u6",
+    "name": "Daniela",
+    "lastName": "Santos",
+    "dni": "402001006",
+    "email": "daniela.santos@example.com",
+    "phone": "+1 849-555-0006",
+    "birthDate": "1997-08-02T00:00:00.000Z",
+    "isActive": true,
+    "employmentDetails": {
+      "id": "ed6",
+      "position": "Project Manager",
+      "department": "Operations",
+      "salary": 60000,
+      "hiringDate": "2020-06-20T00:00:00.000Z",
+      "paymentType": "Monthly",
+      "employeeId": "u6"
+    },
+    "department": {
+      "id": "d5",
+      "name": "Operations"
+    }
+  },
+  {
+    "id": "u7",
+    "name": "Ricardo",
+    "lastName": "Pérez",
+    "dni": "402001007",
+    "email": "ricardo.perez@example.com",
+    "phone": "+1 829-555-0007",
+    "birthDate": "1989-12-21T00:00:00.000Z",
+    "isActive": false,
+    "employmentDetails": {
+      "id": "ed7",
+      "position": "Security Officer",
+      "department": "Security",
+      "salary": 30000,
+      "hiringDate": "2018-09-05T00:00:00.000Z",
+      "paymentType": "Monthly",
+      "employeeId": "u7"
+    },
+    "department": {
+      "id": "d6",
+      "name": "Security"
+    }
+  },
+  {
+    "id": "u8",
+    "name": "Valeria",
+    "lastName": "Molina",
+    "dni": "402001008",
+    "email": "valeria.molina@example.com",
+    "phone": "+1 809-555-0008",
+    "birthDate": "1994-03-19T00:00:00.000Z",
+    "isActive": true,
+    "employmentDetails": {
+      "id": "ed8",
+      "position": "Assistant",
+      "department": "Administration",
+      "salary": 27000,
+      "hiringDate": "2023-05-10T00:00:00.000Z",
+      "paymentType": "Monthly",
+      "employeeId": "u8"
+    },
+    "department": {
+      "id": "d7",
+      "name": "Administration"
+    }
+  },
+  {
+    "id": "u9",
+    "name": "José",
+    "lastName": "Castro",
+    "dni": "402001009",
+    "email": "jose.castro@example.com",
+    "phone": "+1 849-555-0009",
+    "birthDate": "1987-07-11T00:00:00.000Z",
+    "isActive": true,
+    "employmentDetails": {
+      "id": "ed9",
+      "position": "Electrician",
+      "department": "Maintenance",
+      "salary": 35000,
+      "hiringDate": "2017-04-18T00:00:00.000Z",
+      "paymentType": "Biweekly",
+      "employeeId": "u9"
+    },
+    "department": {
+      "id": "d8",
+      "name": "Maintenance"
+    }
+  },
+  {
+    "id": "u10",
+    "name": "Laura",
+    "lastName": "Reyes",
+    "dni": "402001010",
+    "email": "laura.reyes@example.com",
+    "phone": "+1 809-555-0010",
+    "birthDate": "1999-02-14T00:00:00.000Z",
+    "isActive": true,
+    "employmentDetails": {
+      "id": "ed10",
+      "position": "Content Creator",
+      "department": "Marketing",
+      "salary": 32000,
+      "hiringDate": "2024-01-10T00:00:00.000Z",
+      "paymentType": "Monthly",
+      "employeeId": "u10"
+    },
+    "department": {
+      "id": "d4",
+      "name": "Marketing"
+    }
+  },
+
+  {
+    "id": "u11",
+    "name": "Juan",
+    "lastName": "Torres",
+    "dni": "402001011",
+    "email": "juan.torres@example.com",
+    "phone": "+1 809-555-0011",
+    "birthDate": "1992-06-12T00:00:00.000Z",
+    "isActive": true,
+    "employmentDetails": {
+      "id": "ed11",
+      "position": "Backend Developer",
+      "department": "IT",
+      "salary": 58000,
+      "hiringDate": "2021-08-18T00:00:00.000Z",
+      "paymentType": "Monthly",
+      "employeeId": "u11"
+    },
+    "department": {
+      "id": "d1",
+      "name": "IT"
+    }
+  },
+  {
+    "id": "u12",
+    "name": "Camila",
+    "lastName": "Peña",
+    "dni": "402001012",
+    "email": "camila.pena@example.com",
+    "phone": "+1 829-555-0012",
+    "birthDate": "1997-10-08T00:00:00.000Z",
+    "isActive": true,
+    "employmentDetails": {
+      "id": "ed12",
+      "position": "Cashier",
+      "department": "Finance",
+      "salary": 24000,
+      "hiringDate": "2022-11-01T00:00:00.000Z",
+      "paymentType": "Biweekly",
+      "employeeId": "u12"
+    },
+    "department": {
+      "id": "d3",
+      "name": "Finance"
+    }
+  },
+  {
+    "id": "u13",
+    "name": "Esteban",
+    "lastName": "Ruiz",
+    "dni": "402001013",
+    "email": "esteban.ruiz@example.com",
+    "phone": "+1 849-555-0013",
+    "birthDate": "1988-04-17T00:00:00.000Z",
+    "isActive": false,
+    "employmentDetails": {
+      "id": "ed13",
+      "position": "Driver",
+      "department": "Logistics",
+      "salary": 26000,
+      "hiringDate": "2016-10-05T00:00:00.000Z",
+      "paymentType": "Weekly",
+      "employeeId": "u13"
+    },
+    "department": {
+      "id": "d9",
+      "name": "Logistics"
+    }
+  },
+  {
+    "id": "u14",
+    "name": "Sara",
+    "lastName": "Jiménez",
+    "dni": "402001014",
+    "email": "sara.jimenez@example.com",
+    "phone": "+1 829-555-0014",
+    "birthDate": "1995-05-01T00:00:00.000Z",
+    "isActive": true,
+    "employmentDetails": {
+      "id": "ed14",
+      "position": "Data Analyst",
+      "department": "IT",
+      "salary": 61000,
+      "hiringDate": "2023-07-12T00:00:00.000Z",
+      "paymentType": "Monthly",
+      "employeeId": "u14"
+    },
+    "department": {
+      "id": "d1",
+      "name": "IT"
+    }
+  },
+  {
+    "id": "u15",
+    "name": "Pablo",
+    "lastName": "Cruz",
+    "dni": "402001015",
+    "email": "pablo.cruz@example.com",
+    "phone": "+1 809-555-0015",
+    "birthDate": "1993-12-03T00:00:00.000Z",
+    "isActive": true,
+    "employmentDetails": {
+      "id": "ed15",
+      "position": "Technician",
+      "department": "Maintenance",
+      "salary": 33000,
+      "hiringDate": "2019-01-15T00:00:00.000Z",
+      "paymentType": "Monthly",
+      "employeeId": "u15"
+    },
+    "department": {
+      "id": "d8",
+      "name": "Maintenance"
+    }
+  },
+  {
+    "id": "u16",
+    "name": "Isabel",
+    "lastName": "Silva",
+    "dni": "402001016",
+    "email": "isabel.silva@example.com",
+    "phone": "+1 829-555-0016",
+    "birthDate": "1990-09-22T00:00:00.000Z",
+    "isActive": true,
+    "employmentDetails": {
+      "id": "ed16",
+      "position": "Receptionist",
+      "department": "Administration",
+      "salary": 23000,
+      "hiringDate": "2024-02-10T00:00:00.000Z",
+      "paymentType": "Biweekly",
+      "employeeId": "u16"
+    },
+    "department": {
+      "id": "d7",
+      "name": "Administration"
+    }
+  },
+  {
+    "id": "u17",
+    "name": "Tomás",
+    "lastName": "Rivas",
+    "dni": "402001017",
+    "email": "tomas.rivas@example.com",
+    "phone": "+1 849-555-0017",
+    "birthDate": "1986-11-10T00:00:00.000Z",
+    "isActive": false,
+    "employmentDetails": {
+      "id": "ed17",
+      "position": "Warehouse Manager",
+      "department": "Logistics",
+      "salary": 45000,
+      "hiringDate": "2015-03-25T00:00:00.000Z",
+      "paymentType": "Monthly",
+      "employeeId": "u17"
+    },
+    "department": {
+      "id": "d9",
+      "name": "Logistics"
+    }
+  },
+  {
+    "id": "u18",
+    "name": "Mónica",
+    "lastName": "Valdez",
+    "dni": "402001018",
+    "email": "monica.valdez@example.com",
+    "phone": "+1 829-555-0018",
+    "birthDate": "1996-07-15T00:00:00.000Z",
+    "isActive": true,
+    "employmentDetails": {
+      "id": "ed18",
+      "position": "Sales Representative",
+      "department": "Sales",
+      "salary": 31000,
+      "hiringDate": "2022-05-10T00:00:00.000Z",
+      "paymentType": "Commission",
+      "employeeId": "u18"
+    },
+    "department": {
+      "id": "d10",
+      "name": "Sales"
+    }
+  },
+  {
+    "id": "u19",
+    "name": "Adriana",
+    "lastName": "Cordero",
+    "dni": "402001019",
+    "email": "adriana.cordero@example.com",
+    "phone": "+1 849-555-0019",
+    "birthDate": "1994-04-29T00:00:00.000Z",
+    "isActive": true,
+    "employmentDetails": {
+      "id": "ed19",
+      "position": "Legal Assistant",
+      "department": "Legal",
+      "salary": 42000,
+      "hiringDate": "2021-09-01T00:00:00.000Z",
+      "paymentType": "Monthly",
+      "employeeId": "u19"
+    },
+    "department": {
+      "id": "d11",
+      "name": "Legal"
+    }
+  },
+  {
+    "id": "u20",
+    "name": "Kevin",
+    "lastName": "Soto",
+    "dni": "402001020",
+    "email": "kevin.soto@example.com",
+    "phone": "+1 809-555-0020",
+    "birthDate": "1998-03-22T00:00:00.000Z",
+    "isActive": true,
+    "employmentDetails": {
+      "id": "ed20",
+      "position": "Frontend Developer",
+      "department": "IT",
+      "salary": 54000,
+      "hiringDate": "2023-10-12T00:00:00.000Z",
+      "paymentType": "Monthly",
+      "employeeId": "u20"
+    },
+    "department": {
+      "id": "d1",
+      "name": "IT"
+    }
+  }
+]
