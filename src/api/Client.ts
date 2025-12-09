@@ -99,7 +99,10 @@ export class APIMethods {
     return data;
   }
 
-  static async EditEmployee(id: string, formData) {
+  static async EditEmployee(
+    id: string,
+    formData: { position: string; salary: number; paymentType: string },
+  ) {
     const body = {
       position: formData.position,
       salary: +formData.salary,
