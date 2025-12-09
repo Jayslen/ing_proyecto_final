@@ -23,6 +23,7 @@ export type Employee = {
 };
 
 export type EmployeeFormData = {
+  id: string;
   name: string;
   lastName: string;
   dni: string;

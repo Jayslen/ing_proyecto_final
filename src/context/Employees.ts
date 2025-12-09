@@ -3,7 +3,7 @@ import type { Employee, EmployeeFormData } from "../types/core";
 import { APIMethods } from "../api/Client";
 
 type EmployeesState = {
-  employees: any[];
+  employees: Employee[];
   addEmployee: (employee: EmployeeFormData) => void;
   removeEmployee: (id: string) => void;
   initializeEmployees: () => Promise<void>;
@@ -17,7 +17,7 @@ const useEmployeesStore = create<EmployeesState>((set) => ({
   },
   addEmployee: (input: EmployeeFormData) =>
     set((state) => {
-      const newEmployee: Employee = {
+      const newEmployee = {
         id: input.id,
         name: input.name,
         lastName: input.lastName,
@@ -27,15 +27,17 @@ const useEmployeesStore = create<EmployeesState>((set) => ({
         birthDate: input.birthDate,
         isActive: true,
         employmentDetails: {
+          id: "",
           position: input.position,
-          department: null,
+          department: "null",
           salary: input.salary,
           hiringDate: input.hiringDate,
           paymentType: input.paymentType,
+          employeeId: input.id,
         },
         department: {
           id: input.departmentId,
-          name: null,
+          name: "",
         },
       };
       return { employees: [...state.employees, newEmployee] };

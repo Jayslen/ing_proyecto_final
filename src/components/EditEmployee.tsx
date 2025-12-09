@@ -2,7 +2,6 @@ import { PopupLayout } from "./PopupLayout";
 import { APIMethods } from "../api/Client";
 import type { Employee, EmployeeFormData } from "../types/core";
 import { Input } from "./Input";
-import { toast } from "react-toastify/unstyled";
 
 export function EditEmployee({
   closePopup,
