@@ -3,7 +3,6 @@ import { DeleteIcon, EditIcon } from "./Icons";
 import { EditEmployee } from "./EditEmployee";
 import Employees from "../context/Employees";
 import type { Employee } from "../types/core";
-import { APIMethods } from "../api/Client";
 
 export function EmployeesTable() {
   const { employees, removeEmployee, initializeEmployees } = Employees();
